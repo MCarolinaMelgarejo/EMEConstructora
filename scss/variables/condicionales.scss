@@ -1,0 +1,23 @@
+$color: azul;
+
+.consulta__titulo{
+    @if ($color==azul) {
+        color: blue;
+
+    }
+    @else if (color==rojo){
+        color: red;
+    }
+    @else {
+        color: rgb(41, 141, 32);
+    }
+}
+
+$colores: azul, rojo, verde, amarillo;
+
+@each $color in $colores {
+    .consulta__respuesta{
+        background-color: $color;
+    }
+    
+}

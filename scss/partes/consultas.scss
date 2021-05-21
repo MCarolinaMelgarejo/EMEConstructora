@@ -1,0 +1,55 @@
+.concultasFrecuentes{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    position: relative;
+    z-index: 2;
+
+
+}
+
+
+.consulta{
+    
+
+    &__titulo{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: brown;
+        position: relative;
+        z-index: 2;
+
+    
+    }
+
+    &__respuesta{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 2%;
+        position: relative;
+        z-index: 2;
+        font-weight: 700;
+
+        :hover{
+            background-color:lightgrey;
+        }
+    }
+}
+
+.fondoConsultas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0.4;
+}
+
+@media only screen and (max-width:770px){
+    .fondoConsultas{
+        width: 0;
+        height: 0;
+        
+    }
+
+}

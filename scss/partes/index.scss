@@ -1,0 +1,69 @@
+#logo{
+    width: 40vh;
+    height: 40vh;
+    padding:0;
+    margin: 0;
+
+}
+
+.logo{
+    padding: 2%;
+}
+
+
+.lema{
+    margin: 0%;
+    padding: 10%;
+    padding-top: 2%;
+    height: 80vh;
+    position: center;
+    text-align: center;
+    position: relative;
+    size: cover;
+    background: rgb(235, 232, 235);
+
+    
+    &__nombre{
+    margin: 0;
+    font-size: 60px;
+    padding: 0;
+    color: lightcoral;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(250, 237, 237, 0.26)
+
+    }
+    &__lemaPrincipal{
+    font-size: 30px;
+    padding:1%;
+    color: maroon;
+    font-family: 'Blinker', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid lightcoral;
+    margin-left: 22%;
+    margin-right: 22%;
+    position: relative;
+    z-index: 2;
+    }
+    &__imagen{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    
+
+    }
+}
+
+
+
+@media only screen and (max-width:768px){
+
+   .lema{
+       display: flex;
+       flex-direction: column;
+   }
+}

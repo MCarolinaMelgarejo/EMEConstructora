@@ -1,0 +1,12 @@
+@keyframes tituloUno{
+    0%{
+        transform: rotateX(45deg);
+
+    }
+    50%{
+        transform: rotateX(90deg);
+    }
+    75%{
+        transform:rotateX(180deg);
+    }
+}

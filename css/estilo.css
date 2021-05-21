@@ -1,0 +1,465 @@
+.consulta__titulo {
+  color: blue; }
+
+.consulta__respuesta {
+  background-color: azul; }
+
+.consulta__respuesta {
+  background-color: rojo; }
+
+.consulta__respuesta {
+  background-color: verde; }
+
+.consulta__respuesta {
+  background-color: amarillo; }
+
+.footer {
+  margin: 0;
+  background: #e0dfe0;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  width: 100%;
+  max-height: 10%;
+  position: relative;
+  z-index: 2; }
+  .footer__lista {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    max-height: 25vh;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 2; }
+  .footer__lista li:hover {
+    opacity: 80%;
+    position: relative;
+    z-index: 2; }
+  .footer__item {
+    font-size: 10px;
+    text-decoration-line: none;
+    font-family: 'Blinker', sans-serif;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+
+.iconos {
+  width: 5vh;
+  height: 5vh;
+  position: relative;
+  z-index: 2; }
+
+@media only screen and (max-width: 668px) {
+  .footer__lista {
+    display: flex;
+    flex-direction: column; } }
+
+#logo {
+  width: 40vh;
+  height: 40vh;
+  padding: 0;
+  margin: 0; }
+
+.logo {
+  padding: 2%; }
+
+.lema {
+  margin: 0%;
+  padding: 10%;
+  padding-top: 2%;
+  height: 80vh;
+  position: center;
+  text-align: center;
+  position: relative;
+  size: cover;
+  background: #ebe8eb; }
+  .lema__nombre {
+    margin: 0;
+    font-size: 60px;
+    padding: 0;
+    color: lightcoral;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(250, 237, 237, 0.26); }
+  .lema__lemaPrincipal {
+    font-size: 30px;
+    padding: 1%;
+    color: maroon;
+    font-family: 'Blinker', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid lightcoral;
+    margin-left: 22%;
+    margin-right: 22%;
+    position: relative;
+    z-index: 2; }
+  .lema__imagen {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6; }
+
+@media only screen and (max-width: 768px) {
+  .lema {
+    display: flex;
+    flex-direction: column; } }
+
+.lema__nombre1 {
+  margin: 0;
+  font-size: 30px;
+  padding: 0;
+  color: lightcoral;
+  position: relative;
+  z-index: 2; }
+
+.informacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 2; }
+
+.tabla {
+  border: 2px solid #a09c9c;
+  text-align: center;
+  font-weight: 50;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2; }
+  .tabla__titulos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #880c0c;
+    position: relative;
+    z-index: 2; }
+  .tabla__definicion {
+    font-size: 15px;
+    color: #0a141d;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: square;
+    position: relative;
+    z-index: 2; }
+
+.formatoNosotras {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  z-index: 2; }
+
+.nosotras {
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  z-index: 2; }
+  .nosotras__nombre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .nosotras__foto {
+    opacity: 0,3;
+    border-radius: 500px;
+    height: 27vh;
+    width: 27vh;
+    margin: auto; }
+  .nosotras__foto:hover {
+    height: 37vh;
+    width: 37vh; }
+  .nosotras__descripcion {
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.resumen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 100vh; }
+
+.mision {
+  border: 1px solid gray;
+  border-radius: 60%;
+  margin: 2vh;
+  padding: 2vh;
+  max-height: 100vh;
+  max-width: 100vh;
+  background-color: rgba(228, 191, 178, 0.89);
+  flex-basis: 10vh;
+  position: relative;
+  z-index: 2; }
+  .mision :hover {
+    color: #301212; }
+
+.tituloMision {
+  font-size: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  color: brown;
+  position: relative;
+  z-index: 2; }
+
+.descripcionMision {
+  padding: 1%;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f5c9c9 14, 108, 108;
+  text-align: center;
+  position: relative;
+  z-index: 2; }
+
+.fondoLogo {
+  position: absolute;
+  opacity: 0.6;
+  width: 70vh;
+  height: 70vh;
+  margin: auto;
+  position: fixed; }
+
+@media only screen and (max-width: 800px) {
+  .formatoNosotras {
+    display: flex;
+    flex-direction: column;
+    align-content: center; }
+  .tabla {
+    display: block; } }
+
+@media only screen and (max-width: 600px) {
+  .informacion {
+    display: flex;
+    flex-direction: column;
+    align-content: center; } }
+
+.concultasFrecuentes {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  position: relative;
+  z-index: 2; }
+
+.consulta__titulo {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: brown;
+  position: relative;
+  z-index: 2; }
+
+.consulta__respuesta {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2%;
+  position: relative;
+  z-index: 2;
+  font-weight: 700; }
+  .consulta__respuesta :hover {
+    background-color: lightgrey; }
+
+.fondoConsultas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  opacity: 0.4; }
+
+@media only screen and (max-width: 770px) {
+  .fondoConsultas {
+    width: 0;
+    height: 0; } }
+
+.formContacto {
+  margin: 0%;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 1%;
+  position: relative;
+  z-index: 2; }
+  .formContacto__titulo {
+    text-align: center;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.fondoContacto {
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  opacity: 0.4; }
+
+@media only screen and (max-width: 430px) {
+  .fondoContacto {
+    width: 0;
+    height: 0; } }
+
+.servicios {
+  padding: 1%;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: underline;
+  color: brown;
+  max-width: 70vh;
+  text-align: left;
+  margin-left: 33%;
+  position: relative;
+  z-index: 2; }
+  .servicios__categorias {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2; }
+  .servicios__subtitulo {
+    padding-left: 5%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    color: brown;
+    position: relative;
+    z-index: 2; }
+  .servicios__uno {
+    padding-left: 2%;
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid brown;
+    font-weight: 700;
+    flex-basis: 110vh;
+    position: relative;
+    z-index: 2; }
+    .servicios__uno :hover {
+      background-color: rgba(245, 50, 50, 0.336); }
+  .servicios__dos {
+    padding-left: 2%;
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid brown;
+    font-weight: 700;
+    flex-basis: 110vh;
+    position: relative;
+    z-index: 2; }
+    .servicios__dos :hover {
+      background-color: rgba(245, 50, 50, 0.336); }
+  .servicios__lista {
+    padding-left: 5%;
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+    position: relative;
+    z-index: 2; }
+    .servicios__lista__lista:hover {
+      background-color: lightgray; }
+
+.fondoServicios {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+.fondoServicios1 {
+  position: absolute;
+  width: 100%;
+  height: 95%;
+  padding: 0;
+  margin: 0;
+  opacity: 0.4; }
+
+@media only screen and (max-width: 765px) {
+  .fondoServicios1 {
+    width: 0;
+    height: 0; } }
+
+.tituloTrabajos {
+  padding-top: 1%;
+  padding-left: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+  background-color: #f3eaea; }
+
+.trabajosRealizados {
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  z-index: 2; }
+
+.trabajosDescripcion {
+  width: 50vh;
+  height: auto;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid #f3d0d7;
+  text-align: center;
+  background-color: #f7dde2;
+  position: relative;
+  z-index: 2; }
+
+.imagenViviendas {
+  height: 40vh;
+  width: 75vh;
+  flex-grow: 1;
+  position: relative;
+  z-index: 2; }
+
+.fondoLogo2 {
+  position: absolute;
+  opacity: 0.6;
+  width: 50vh;
+  height: 50vh; }
+
+@media only screen and (max-width: 760px) {
+  .trabajosRealizados {
+    display: flex;
+    flex-direction: column; } }
+
+@media only screen and (max-width: 530px) {
+  .imagenViviendas {
+    height: 40vh;
+    width: 60vh;
+    flex-grow: 1; } }
+
+p {
+  color: #0a141d;
+  font-size: 20px;
+  font-family: 'Blinker', sans-serif;
+  line-height: 1.6; }
+
+.mainGeneral {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(211, 211, 211, 0.801);
+  max-height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 2; }
+
+.tituloUno {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: underline;
+  color: brown;
+  max-width: 70vh;
+  margin-left: 33%;
+  text-align: center;
+  position: relative;
+  z-index: 2; }

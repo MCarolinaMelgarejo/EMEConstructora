@@ -1,0 +1,184 @@
+.lema__nombre1{
+    margin: 0;
+    font-size: 30px;
+    padding: 0;
+    color: lightcoral;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+
+}
+
+.tabla{
+    border: 2px solid rgb(160, 156, 156);
+    text-align: center;
+    font-weight: 50;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    
+
+    &__titulos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color:rgb(136, 12, 12);
+        position: relative;
+        z-index: 2;
+        
+    }
+
+    &__definicion{
+        font-size: 15px;
+        color: rgb(10, 20, 29);
+        font-family:Arial, Helvetica, sans-serif;
+        list-style-type:square;
+        position: relative;
+        z-index: 2;
+       
+    }
+}
+
+@mixin parrafos  {
+
+    color:rgb(10, 20, 29) ;
+    font-size: 20px;
+    font-family: 'Blinker', sans-serif;
+
+}
+.formatoNosotras{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    z-index: 2;
+}
+.nosotras{
+    margin:0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    z-index: 2;
+   
+    
+
+    &__nombre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    &__foto{
+        opacity: 0,3;
+        border-radius: 500px;
+        height: 27vh;
+        width: 27vh;
+        margin: auto;
+        
+    }
+    &__foto:hover{
+        height: 37vh;
+        width: 37vh;
+    }
+
+    &__descripcion{
+        padding-top: 10px;
+        padding-left: 10px;
+        text-align:left;
+        font-family:Arial, Helvetica, sans-serif;
+ 
+   }
+}
+
+.resumen{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 100vh;
+  
+
+   
+}
+
+.mision{
+    border: 1px solid gray;
+    border-radius: 60%;
+    margin: 2vh;
+    padding:2vh;
+    max-height: 100vh;
+    max-width: 100vh;
+    background-color: rgba(228, 191, 178, 0.89);
+    flex-basis: 10vh;
+    position: relative;
+    z-index: 2;
+
+    :hover{
+        color: rgb(48, 18, 18);
+    }
+}
+
+
+.tituloMision{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    color: brown;
+    position: relative;
+    z-index: 2;
+}
+
+.descripcionMision{
+    padding:1%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(245, 201, 201)14, 108, 108;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+
+}
+
+.fondoLogo{
+    position: absolute;
+    opacity: 0.6;
+    width: 70vh;
+    height: 70vh;
+    margin:auto;
+    position: fixed;
+    
+    
+}
+@media only screen and (max-width:800px){
+
+    .formatoNosotras{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .tabla{
+        display: block;
+    }
+ }
+
+ @media only screen and (max-width:600px){
+
+    .informacion{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+
+ }
