@@ -267,7 +267,10 @@
     border-radius: 500px;
     height: 17vh;
     width: 17vh;
-    margin: auto; } }
+    margin: auto; }
+  .fondoLogo {
+    width: 0;
+    height: 0; } }
 
 .concultasFrecuentes {
   display: flex;
