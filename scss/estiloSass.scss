@@ -26,7 +26,13 @@ p {
     
 }
 
-
+@media only screen and (max-width:430px){
+    
+header{
+     max-height: 80%;
+    }
+ 
+ }
 
 .mainGeneral{
     padding: 0;
@@ -39,8 +45,18 @@ p {
     
 }
 @media only screen and (max-width:768px){
-    max-height: 80%;
+    .mainGeneral{
+        max-height: 80%;
+    }
 }
+@media only screen and (max-width:430px){
+    
+    .mainGeneral{
+     max-height: 80%;
+    }
+ 
+ }
+
 
 .tituloUno{
     font-size: 25px;
@@ -54,7 +70,11 @@ p {
     position: relative;
     z-index: 2;
     
-
+}
+@media only screen and (max-width:768px){
+    .tituloUno{
+        font-size: 20px;
+    }
 }
 
 

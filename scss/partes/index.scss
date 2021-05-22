@@ -65,7 +65,7 @@
    .lema{
        display: flex;
        flex-direction: column;
-       height: 100vh;
+       height: 90vh;
    }
    .lema__imagen{
     position: absolute;
@@ -76,6 +76,10 @@
     opacity: 0.6;
     
     }
+    .tituloUno{
+        font-size: 20px;
+    }
+
 }
 
 @media only screen and (max-width:500px){

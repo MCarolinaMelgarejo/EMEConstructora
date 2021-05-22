@@ -108,14 +108,16 @@
   .lema {
     display: flex;
     flex-direction: column;
-    height: 100vh; }
+    height: 90vh; }
   .lema__imagen {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.6; } }
+    opacity: 0.6; }
+  .tituloUno {
+    font-size: 20px; } }
 
 @media only screen and (max-width: 500px) {
   .lema__nombre {
@@ -133,6 +135,10 @@
   position: relative;
   z-index: 2; }
 
+@media only screen and (max-width: 768px) {
+  .lema__nombre1 {
+    font-size: 20px; } }
+
 .informacion {
   display: flex;
   flex-direction: column;
@@ -145,6 +151,8 @@
   text-align: center;
   font-weight: 50;
   text-transform: uppercase;
+  min-height: .01%;
+  overflow-x: auto;
   position: relative;
   z-index: 2; }
   .tabla__titulos {
@@ -252,9 +260,14 @@
 
 @media only screen and (max-width: 600px) {
   .informacion {
-    display: flex;
-    flex-direction: column;
-    align-content: center; } }
+    width: 0;
+    height: 0; }
+  .nosotras__foto {
+    opacity: 0,3;
+    border-radius: 500px;
+    height: 17vh;
+    width: 17vh;
+    margin: auto; } }
 
 .concultasFrecuentes {
   display: flex;
@@ -293,6 +306,10 @@
     width: 0;
     height: 0; } }
 
+@media only screen and (max-width: 530px) {
+  .consulta__respuesta {
+    font-size: 15px; } }
+
 .formContacto {
   margin: 0%;
   padding-left: 30%;
@@ -310,6 +327,11 @@
   width: 100%;
   height: 110%;
   opacity: 0.4; }
+
+@media only screen and (max-width: 600px) {
+  .fondoContacto {
+    width: 100%;
+    height: 90%; } }
 
 @media only screen and (max-width: 430px) {
   .fondoContacto {
@@ -451,13 +473,23 @@
   .imagenViviendas {
     height: 40vh;
     width: 60vh;
-    flex-grow: 1; } }
+    flex-grow: 1; }
+  .imagenViviendas {
+    height: 30vh;
+    width: 55vh;
+    flex-grow: 1;
+    position: relative;
+    z-index: 2; } }
 
 p {
   color: #0a141d;
   font-size: 20px;
   font-family: 'Blinker', sans-serif;
   line-height: 1.6; }
+
+@media only screen and (max-width: 430px) {
+  header {
+    max-height: 80%; } }
 
 .mainGeneral {
   padding: 0;
@@ -469,7 +501,12 @@ p {
   z-index: 2; }
 
 @media only screen and (max-width: 768px) {
-  max-height: 80%; }
+  .mainGeneral {
+    max-height: 80%; } }
+
+@media only screen and (max-width: 430px) {
+  .mainGeneral {
+    max-height: 80%; } }
 
 .tituloUno {
   font-size: 25px;
@@ -482,3 +519,7 @@ p {
   text-align: center;
   position: relative;
   z-index: 2; }
+
+@media only screen and (max-width: 768px) {
+  .tituloUno {
+    font-size: 20px; } }

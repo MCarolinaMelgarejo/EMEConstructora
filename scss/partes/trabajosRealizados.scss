@@ -67,5 +67,13 @@
         flex-grow: 1;
         
     }
+    .imagenViviendas{
+        height:30vh;
+        width: 55vh;
+        flex-grow: 1;
+        position: relative;
+        z-index: 2;
+    }
+        
 
 }
