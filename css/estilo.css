@@ -269,8 +269,13 @@
     width: 17vh;
     margin: auto; }
   .fondoLogo {
-    width: 0;
-    height: 0; } }
+    position: absolute;
+    opacity: 0.6;
+    width: 70vh;
+    height: 70vh;
+    margin: auto;
+    padding-left: 5%;
+    object-position: center; } }
 
 .concultasFrecuentes {
   display: flex;
